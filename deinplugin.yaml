@@ -1,19 +1,25 @@
 specVersion: 1
 type: plugin
-name: Staff Tools
-<<<<<<< HEAD
-  authors* Boomtrex
-=======
-authors* Boomtrex
->>>>>>> origin/master
+name: Spawn Elytra
+authors:
+  - cedricmkl
 supportedPlatforms:
   - spigot
-  supportedGameVersions*:^1.19
-category: staffTool
-introduction: Staff Plugin das das `/adminitems, /moditems`-Kommando hinzufügt
-description: Das Ist eine Staff Plugin, dass für die Sicherheit eures Minecraft Server sorgt.
+supportedGameVersions: ^1.17
+category: misc
+introduction: Ermöglicht das Nutzen einer temporären Elytra
+description: |
+  Das Plugin ermöglicht durch einen Doppelsprung in einem Spawn-Bereich das Nutzen einer temporären Elytra. 
+  Mit der Taste um die Hände zu wechseln kann man einen Boost verwenden.
 installation:
-  de:
+  de: |
     - Herunterladen der Plugin-Datei
-    - Ablegen der Datei im Plugin-Ordner
+    - Ablegen der Datei im Plugins-Ordner
     - Server neustarten
+    - In der Datei config.yml einstellen:
+        - spawnRadius: Den Radius um den Worldspawn, wo die Elytra aktiviert werden soll
+        - multiplyValue: Stärke des Boostes
+        - boostEnabled: Ob der Boost eingeschaltet sein soll
+        - world: Die Welt, in der man die Elytra aktivieren kann
+videoSources:
+  - https://www.youtube.com/watch?v=S9f_mFiYT50
