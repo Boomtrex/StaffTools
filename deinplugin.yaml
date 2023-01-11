@@ -1,0 +1,15 @@
+specVersion*: 1
+type*: plugin
+name*: Staff Tools
+authors*: Boomtrex
+supportedPlatforms:
+  - spigot
+supportedGameVersions*:^1.19
+category*: staffTool
+introduction*: Staff Plugin das das `/adminitems, /moditems`-Kommando hinzufügt
+description*: Das Ist eine Staff Plugin, dass für die Sicherheit eures Minecraft Server sorgt.
+installation:
+  de:
+    - Herunterladen der Plugin-Datei
+    - Ablegen der Datei im Plugin-Ordner
+    - Server neustarten
