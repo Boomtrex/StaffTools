@@ -1,0 +1,9 @@
+name: StaffTools
+version: '${project.version}'
+main: de.boomunitymc.stafftools.StaffTools
+commands:
+  adminitems:
+    permission: main.adminItems
+  moditems:
+    permission: main.modItems
+api-version: 1.19
